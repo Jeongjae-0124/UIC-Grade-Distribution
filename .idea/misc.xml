@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Jeong Jae Park/android/gradeapp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.10185185185185185" />
+        <entry key="..\:/Users/Jeong Jae Park/android/gradeapp/app/src/main/res/drawable/edge.xml" value="0.1" />
+        <entry key="..\:/Users/Jeong Jae Park/android/gradeapp/app/src/main/res/drawable/ic_baseline_bug_repor.xml" value="0.19722222222222222" />
+        <entry key="..\:/Users/Jeong Jae Park/android/gradeapp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Users/Jeong Jae Park/android/gradeapp/app/src/main/res/drawable/ic_main_background.xml" value="0.1" />
+        <entry key="..\:/Users/Jeong Jae Park/android/gradeapp/app/src/main/res/layout/activity_front_page.xml" value="0.21794871794871795" />
+        <entry key="..\:/Users/Jeong Jae Park/android/gradeapp/app/src/main/res/layout/activity_grade_list_page.xml" value="0.25" />
+        <entry key="..\:/Users/Jeong Jae Park/android/gradeapp/app/src/main/res/layout/activity_main.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/Jeong Jae Park/android/gradeapp/app/src/main/res/layout/activity_search_page.xml" value="0.165" />
+        <entry key="..\:/Users/Jeong Jae Park/android/gradeapp/app/src/main/res/layout/activity_search_result_page.xml" value="0.1" />
+        <entry key="..\:/Users/Jeong Jae Park/android/gradeapp/app/src/main/res/layout/course_item.xml" value="0.17751479289940827" />
+        <entry key="..\:/Users/Jeong Jae Park/android/gradeapp/app/src/main/res/layout/coursedetail_item.xml" value="0.25" />
+        <entry key="..\:/Users/Jeong Jae Park/android/gradeapp/app/src/main/res/layout/department_item.xml" value="0.335" />
+        <entry key="..\:/Users/Jeong Jae Park/android/gradeapp/app/src/main/res/layout/fragment_course.xml" value="0.25" />
+        <entry key="..\:/Users/Jeong Jae Park/android/gradeapp/app/src/main/res/layout/fragment_course_detail.xml" value="0.25" />
+        <entry key="..\:/Users/Jeong Jae Park/android/gradeapp/app/src/main/res/layout/fragment_detail.xml" value="0.19675925925925927" />
+        <entry key="..\:/Users/Jeong Jae Park/android/gradeapp/app/src/main/res/layout/fragment_search.xml" value="0.25" />
+        <entry key="..\:/Users/Jeong Jae Park/android/gradeapp/app/src/main/res/layout/grade_detail.xml" value="0.22916666666666666" />
+        <entry key="..\:/Users/Jeong Jae Park/android/gradeapp/app/src/main/res/layout/layout.xml" value="0.1" />
+        <entry key="..\:/Users/Jeong Jae Park/android/gradeapp/app/src/main/res/layout/single_item.xml" value="0.25" />
+        <entry key="..\:/Users/Jeong Jae Park/android/gradeapp/app/src/main/res/menu/bottom_navigation_main.xml" value="0.335" />
+        <entry key="..\:/Users/Jeong Jae Park/android/gradeapp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="..\:/Users/Jeong Jae Park/android/gradeapp/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
+        <entry key="..\:/Users/Jeong Jae Park/android/gradeapp/app/src/main/res/mipmap-anydpi-v26/ic_main.xml" value="0.1" />
+        <entry key="..\:/Users/Jeong Jae Park/android/gradeapp/app/src/main/res/mipmap-anydpi-v26/ic_main_round.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

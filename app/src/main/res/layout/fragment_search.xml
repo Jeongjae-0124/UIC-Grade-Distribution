@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GradeListPage">
+
+    <RelativeLayout
+        android:id="@+id/main_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/explain"
+            android:layout_width="500dp"
+            android:layout_height="200dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/edge"
+            android:padding="20dp"
+            android:text="Enter a term and course, like FA20 CS 151 for Fall 2020 Computer Science 151 course"
+            android:autoSizeTextType="uniform"/>
+
+        <RelativeLayout
+            android:id="@+id/term_box"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/explain"
+            android:layout_marginTop="30dp">
+
+            <TextView
+                android:id="@+id/term_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:text="Term"
+                android:textColor="#0C0C0C"
+                android:textSize="25dp" />
+
+            <Spinner
+                android:id="@+id/term_spinner"
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_toRightOf="@+id/term_text"
+                android:hint="term" />
+
+            <Spinner
+                android:id="@+id/year_spinner"
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/term_spinner" />
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/course"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/term_box"
+            android:layout_marginTop="30dp">
+
+            <TextView
+                android:id="@+id/course_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:text="Course"
+                android:textColor="#0C0C0C"
+                android:layout_centerVertical="true"
+                android:textSize="25dp" />
+
+            <EditText
+                android:id="@+id/courseAbb_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_toRightOf="@+id/course_text"
+                android:hint="Course Abb"
+                android:inputType="text"
+                android:maxLines="1" />
+
+            <EditText
+                android:id="@+id/courseNum_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/courseAbb_edit"
+                android:hint="Course Num" />
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/search_button"
+            android:layout_width="130dp"
+            android:layout_height="70dp"
+            android:layout_below="@+id/course"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="20dp"
+            android:text="search" />
+
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

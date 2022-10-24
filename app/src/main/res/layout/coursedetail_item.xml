@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp">
+
+    <TextView
+        android:id="@+id/course_abb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MATH"
+        android:textColor="#0B0A0A"
+        android:layout_marginLeft="10dp"
+        android:layout_centerVertical="true"
+        android:textSize="20dp"
+        android:autoSizeTextType="uniform" />
+    <TextView
+        android:id="@+id/course_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="180:"
+        android:textColor="#1E1D1D"
+        android:textSize="20dp"
+        android:layout_toRightOf="@id/course_abb"
+        android:layout_centerVertical="true"/>
+
+    <TextView
+        android:id="@+id/course_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/course_num"
+        android:textSize="20dp"
+        android:text="Calculus 1"
+        android:textColor="#454343" />
+
+
+
+
+
+
+</RelativeLayout>

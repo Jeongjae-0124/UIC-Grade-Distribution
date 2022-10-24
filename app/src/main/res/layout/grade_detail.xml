@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/info_box"
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/edge">
+
+            <TextView
+                android:id="@+id/course_abb_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="CS 151"
+                android:textColor="#851515"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/course_name_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/course_abb_text"
+                android:layout_margin="10dp"
+                android:text="Foundation of Computing"
+                android:textColor="#0B0A0A"
+                android:textSize="28dp" />
+
+
+            <TextView
+                android:id="@+id/primary_instructor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/course_name_text"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:text="Primary Instructor:"
+                android:textColor="#120F0F"
+                android:textSize="28dp" />
+
+            <TextView
+                android:id="@+id/professor_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/primary_instructor"
+                android:layout_marginStart="10dp"
+                android:text="Professor Name"
+                android:textSize="22dp" />
+
+
+            <TextView
+                android:id="@+id/rateMyProf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/professor_name"
+                android:layout_marginLeft="10dp"
+                android:clickable="true"
+                android:linksClickable="true"
+                android:text="(RateMyProfessor)"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/term_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rateMyProf"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="Term: "
+                android:textColor="#100F0F"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/term_text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rateMyProf"
+                android:layout_marginTop="20dp"
+                android:layout_toRightOf="@+id/term_text"
+                android:text="FA 20"
+                android:textSize="30dp" />
+
+        </RelativeLayout>
+
+        <com.github.mikephil.charting.charts.BarChart
+            android:id="@+id/chart"
+            android:layout_width="match_parent"
+            android:layout_height="550dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/info_box" />
+
+        <RelativeLayout
+            android:layout_width="350dp"
+            android:layout_height="160dp"
+            android:layout_below="@+id/chart"
+            android:layout_centerHorizontal="true"
+
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/edge">
+
+            <TextView
+                android:id="@+id/withdraw_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Withdraw:"
+                android:textColor="#0B0A0A"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/withdraw_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/withdraw_text"
+                android:layout_toRightOf="@id/withdraw_text"
+                android:text="100"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/reg_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/withdraw_text"
+                android:layout_margin="10dp"
+                android:text="Total Registerd:"
+                android:textColor="#090808"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/reg_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/reg_text"
+                android:layout_toRightOf="@id/reg_text"
+                android:text="100"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/sat_unsat_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/reg_text"
+                android:layout_margin="10dp"
+                android:textColor="#0E0E0E"
+                android:text="Satisfactory/Unsatisfactory:"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/sat_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/sat_unsat_text"
+                android:layout_toRightOf="@id/sat_unsat_text"
+                android:text="0/"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/unsat_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/sat_num"
+                android:layout_toRightOf="@+id/sat_num"
+                android:text="0"
+                android:textSize="20dp" />
+
+        </RelativeLayout>
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+</ScrollView>
